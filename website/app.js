@@ -6,7 +6,7 @@ const apiKey = '&appid=c168a9bf4a13260edff5c654ea047d0e&units=imperial';
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
+let newDate = (d.getMonth() + 1) +'.'+ d.getDate()+'.'+ d.getFullYear();
 
 /*****
  *  Gets current weather at given zip location using external API
